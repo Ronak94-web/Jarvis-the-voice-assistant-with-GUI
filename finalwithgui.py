@@ -211,7 +211,7 @@ def play():
         elif 'to do' in quary:
             var.set('what s the task?')
             root.update()
-            mydb=mysql.connector.connect(host='127.1.0.0', user='root', password='942003', db='voiceassistant', auth_plugin='mysql_native_password')
+            mydb=mysql.connector.connect(host='127.1.0.0', user='root', password='passs', db='database', auth_plugin='mysql_native_password')
             mycur=mydb.cursor()
             while True:
                 var.set('Whats the task?')
